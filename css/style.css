@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Crimson+Text&family=Lora:wght@400;500;700&display=swap');
+
+/* font-family: 'Cinzel', serif; */
+/* font-family: 'Crimson Text', serif; */
+
+/* 
+#D2EFEF, #f6f8f8, #4bc5b8
+*/
+
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-weight: 500;
+}
+
+.main_header {
+    background: url(../assest/img/banner/bg-1.jpg) no-repeat;
+    color: #f6f8f8;
+}
+
+.banner h1 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.banner h1 span {
+    color: #4bc5b8;
+}
+
+.banner p {
+    font-size: 23px;
+}
+
+.banner .banner-button {
+    background-color: rgb(20, 19, 19);
+    border: none;
+    width: 150px;
+    float: left;
+    font-size: 19px;
+    color: #f6f8f8;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+}
+
+.banner .bnr-btn {
+    background-color: #4bc5b8;
+    margin-bottom: 4px;
+}
+
+.carousel-prev-next .btn-cmn {
+    position: absolute;
+    top: auto;
+    bottom: 10px;
+    border: 2px solid #4bc5b8;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+/* header end */
+
+/* health care start */
+#health_care .banner-button {
+    border: none;
+    width: 150px;
+    float: left;
+    font-size: 16px;
+    color: #f6f8f8;
+    background-color: #000;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 2px;
+    margin: 0 10px 0 0;
+}
+#health_care img {
+    margin: 10px;
+    padding: 10px;
+}
+#health_care .bnr-btn {
+    background-color: #4bc5b8;
+    margin-bottom: 5px;
+}
+
+/* health care end */
+
+/* home care start */
+#home_care {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#home_care h1 {
+    font-size: 40px;
+}
+#home_care p {
+    font-size: 25px;
+}
+#home_care div {
+    margin: 10px;
+}
+#home_care .section_card{
+    background-color: #252525;
+    color:#fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 31%;
+}
+#home_care .section_card img {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}
+#home_care .section_card h4 {
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#home_care .section_card.active {
+    background-color: #4bc5b8;
+}
+#home_care .section_card:hover {
+    background-color: #4bc5b8;
+}
+/* home care end */
+
+/* contace start */
+#contact {
+    background: url(../assest/img/contact-bg.png);
+}
+#contact h1 {
+    font-weight: 800;
+}
+#contact form {
+    background-color: #fff;
+}
+#contact form input {
+    width: 80%;
+    margin-bottom: 15px;
+    border: none;
+    background-color: aliceblue;
+    margin-left: 45px;
+    font-size: 25px;
+    padding: 5px 10px;
+}
+#contact form textarea {
+    width: 80%;
+    margin-left: 45px;
+    padding: 15px 10px;
+    font-size: 20px;
+}
+#contact form button {
+    font-size: 25px;
+    border: none;
+    background-color: #4bc5b8;
+    padding: 3px 10px;
+    margin-bottom: 10px;
+}
+
+/* contact end */
+
+/* openion start */
+#openion h1 {
+    font-weight: 800;
+    text-align: center;
+    margin-top: 20px;
+}
+#openion p {
+    font-size: 25px;
+    text-align: center;
+}
+.cmn {
+    width: 100%;
+    float: left;
+    font-size: 40px;
+    color: #080808;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+}
+#openion .cstm .cmn_text {
+    width: 100%;
+    color: #444443;
+    margin: 0;
+    float: left;
+    padding: 15px;
+    font-size: 25px;
+    text-align: left;
+}
+#openion i {
+    color: rgb(34, 22, 209);
+    font-size: 20px;
+}
+.cmn_btn {
+    width: 2%;
+    border: round;
+    font-size: 30px;
+}
+footer {
+    background-color: #252525;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+footer {
+
+}
