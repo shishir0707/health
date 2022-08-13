@@ -75,10 +75,12 @@ body {
     border-radius: 2px;
     margin: 0 10px 0 0;
 }
+
 #health_care img {
     margin: 10px;
     padding: 10px;
 }
+
 #health_care .bnr-btn {
     background-color: #4bc5b8;
     margin-bottom: 5px;
@@ -91,50 +93,62 @@ body {
     margin-top: 30px;
     margin-bottom: 30px;
 }
+
 #home_care h1 {
     font-size: 40px;
 }
+
 #home_care p {
     font-size: 25px;
 }
+
 #home_care div {
     margin: 10px;
 }
-#home_care .section_card{
+
+#home_care .section_card {
     background-color: #252525;
-    color:#fff;
+    color: #fff;
     border-radius: 5px;
     padding: 10px;
     margin-left: 10px;
     width: 31%;
 }
+
 #home_care .section_card img {
     padding: 20px;
     width: 150px;
     height: 150px;
 }
+
 #home_care .section_card h4 {
     font-weight: 800;
     letter-spacing: 2px;
 }
+
 #home_care .section_card.active {
     background-color: #4bc5b8;
 }
+
 #home_care .section_card:hover {
     background-color: #4bc5b8;
 }
+
 /* home care end */
 
 /* contace start */
 #contact {
     background: url(../assest/img/contact-bg.png);
 }
+
 #contact h1 {
     font-weight: 800;
 }
+
 #contact form {
     background-color: #fff;
 }
+
 #contact form input {
     width: 80%;
     margin-bottom: 15px;
@@ -144,12 +158,14 @@ body {
     font-size: 25px;
     padding: 5px 10px;
 }
+
 #contact form textarea {
     width: 80%;
     margin-left: 45px;
     padding: 15px 10px;
     font-size: 20px;
 }
+
 #contact form button {
     font-size: 25px;
     border: none;
@@ -166,10 +182,12 @@ body {
     text-align: center;
     margin-top: 20px;
 }
+
 #openion p {
     font-size: 25px;
     text-align: center;
 }
+
 .cmn {
     width: 100%;
     float: left;
@@ -179,6 +197,7 @@ body {
     text-transform: uppercase;
     padding: 20px;
 }
+
 #openion .cstm .cmn_text {
     width: 100%;
     color: #444443;
@@ -188,22 +207,194 @@ body {
     font-size: 25px;
     text-align: left;
 }
+
 #openion i {
     color: rgb(34, 22, 209);
     font-size: 20px;
 }
+
 .cmn_btn {
     width: 2%;
     border: round;
     font-size: 30px;
 }
+
+/* openion end */
 footer {
     background-color: #252525;
     color: #fff;
-    text-align: center;
-    font-size: 35px;
+    font-size: 20px;
 }
 
-footer {
+footer div {
+    margin-left: 20px;
+    padding: 10px;
+}
 
+.f_img {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #d6d6d6;
+    padding-bottom: 10px;
+}
+
+.f_img span {
+    margin-left: 10px;
+}
+
+footer input {
+    width: 100%;
+    float: left;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Crimson Text', serif;
+    background-color: #d6d6d6;
+    padding: 10px 10px;
+    margin-top: 10px;
+    border: 2px solid green;
+}
+
+footer button {
+    text-align: center;
+    margin-top: 25px;
+    background-color: #4bc5b8;
+    color: #fff;
+    border: none;
+    font-size: 26px;
+    padding: 10px 25px;
+    font-weight: 500;
+}
+
+.footer_bottom {
+    background-color: #080808;
+    margin-left: 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.navbar-toggler {
+    background-color: aqua;
+}
+
+
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media screen and (max-width: 1192px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 770px) {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        width: 100%;
+    }
+    .row {
+        flex-direction: row;
+    }
 }

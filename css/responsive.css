@@ -1,0 +1,117 @@
+@media screen and (max-width: 996px) {
+    .main_header .navber {
+        width: 100%;
+
+    }
+
+    .main_header .carousel-inner {
+        width: 100%;
+        flex-direction: column;
+        box-sizing: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    #contact .all_section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #contact .left_side {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact .left_side div {
+        margin-bottom: 15px;
+    }
+
+    #contact .left_side div img {
+        margin-bottom: 15px;
+    }
+
+    #contact .right_side {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #home_care .section_card {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 962px) {
+    footer div {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer .F-1 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 50%;
+        float: left;
+    }
+
+    footer .F-2 {
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        float: right;
+    }
+
+    footer .F-3 {
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    footer .F-4 {
+        width: 50%;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+}
+
+@media screen and (max-width: 962px) {
+    footer .F-4 input {
+        width: 90%;
+        margin-right: 10px;
+    }
+
+    footer .footer_all div {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+
+    }
+}
+
+/* #openion .carousel-inner .carousel-item .cstm {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+} */
+
+
+@media screen and (max-width: 1130px) {
+    footer .F-4 input {
+        width: 90%;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    footer .F-4 input {
+        width: 90%;
+        margin-right: 40px;
+    }
+}
